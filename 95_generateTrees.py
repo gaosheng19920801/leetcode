@@ -39,6 +39,42 @@ class Solution:
 
         return getAns(1, n)
 
+# 解法一：递归
+    def generateTrees_1(self, n: int) -> list:
+        if n == 0:
+            return []
+
+        def clone(root:TreeNode,offset:int):
+            if root is None:
+                return None
+            node = TreeNode(root.val+offset)
+            node.left = clone(root.left,offset)
+            node.right = clone(root.right,offset)
+
+            return node
+
+        dp = []
+        dp.append(None)
+        if n == 0:
+            return dp[0]
+
+        len = 1
+        while len <= n:
+            root = 1
+            while root <= len:
+                left = root-1 #左子树长度
+                right = len-root # 右子树长度
+
+                for leftTree in dp[left]:
+                    for rightTree in dp[right]:
+                        rootTree = TreeNode(root)
+                        rootTree.left = leftTree
+                        rootTree.right = clone(rightTree,root)
+                        dp[len].append(rootTree)
+
+                root = root+1
+            len = len+1
+        return dp
 
 # 层次遍历 采用队列  先进先出
 def print_tree(root: TreeNode):
@@ -88,10 +124,11 @@ def print_tree_1(root: TreeNode):
 
     print(ret_list)
 
-'''
+
 def main():
     solution = Solution()
-    trees = solution.generateTrees(3)
+   # trees = solution.generateTrees(3)
+    trees = solution.generateTrees_1(3)
 
     for tree in trees:
         print_tree(tree)
@@ -105,4 +142,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
