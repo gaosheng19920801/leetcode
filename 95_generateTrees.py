@@ -39,7 +39,7 @@ class Solution:
 
         return getAns(1, n)
 
-# 解法一：递归
+# 解法二：非递归
     def generateTrees_1(self, n: int) -> list:
         if n == 0:
             return []
