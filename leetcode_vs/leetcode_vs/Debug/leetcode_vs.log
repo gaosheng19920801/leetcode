@@ -1,4 +1,4 @@
-﻿生成启动时间为 2021/3/14 22:07:11。
+﻿生成启动时间为 2021/3/14 23:40:32。
      1>项目“E:\leetcode\leetcode\leetcode_vs\leetcode_vs\leetcode_vs.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          G:\VS012\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GenerateParentheses.cpp
@@ -10,4 +10,4 @@
 
 生成成功。
 
-已用时间 00:00:01.51
+已用时间 00:00:04.19
