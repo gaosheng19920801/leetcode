@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GenerateParentheses.cpp">
+    <ClCompile Include="23_mergeKLists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22_GenerateParentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31_nextPermutation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
