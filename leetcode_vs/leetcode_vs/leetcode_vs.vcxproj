@@ -78,6 +78,8 @@
   <ItemGroup>
     <ClCompile Include="23_mergeKLists.cpp" />
     <ClCompile Include="22_GenerateParentheses.cpp" />
+    <ClCompile Include="24_swapPairs.cpp" />
+    <ClCompile Include="25_reverseKGroup.cpp" />
     <ClCompile Include="31_nextPermutation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
