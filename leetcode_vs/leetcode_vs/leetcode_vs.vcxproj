@@ -81,6 +81,8 @@
     <ClCompile Include="24_swapPairs.cpp" />
     <ClCompile Include="25_reverseKGroup.cpp" />
     <ClCompile Include="31_nextPermutation.cpp" />
+    <ClCompile Include="32_longestValidParentheses.cpp" />
+    <ClCompile Include="33_search.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -121,7 +121,7 @@ public:
 	}
 
 };
-
+#if 0
 int main()
 {
 	int a[4] = {1,2,3,4};
@@ -138,4 +138,4 @@ int main()
 
 	return 0;
 }
-
+#endif
