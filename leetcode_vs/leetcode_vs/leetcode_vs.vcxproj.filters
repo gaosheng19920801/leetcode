@@ -36,5 +36,8 @@
     <ClCompile Include="33_search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="34_searchRange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
