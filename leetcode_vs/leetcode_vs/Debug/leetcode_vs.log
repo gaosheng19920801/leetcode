@@ -1,21 +1,33 @@
-﻿生成启动时间为 2021/3/21 18:43:07。
+﻿生成启动时间为 2021/3/29 22:54:30。
      1>项目“E:\leetcode\leetcode\leetcode_vs\leetcode_vs\leetcode_vs.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         G:\VS012\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 39_combinationSum.cpp
-         39_combinationSum.cpp
-       Link:
-         G:\VS012\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\leetcode\leetcode\leetcode_vs\Debug\leetcode_vs.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\leetcode\leetcode\leetcode_vs\Debug\leetcode_vs.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\leetcode\leetcode\leetcode_vs\Debug\leetcode_vs.lib" /MACHINE:X86 Debug\23_mergeKLists.obj
-         Debug\22_GenerateParentheses.obj
-         Debug\24_swapPairs.obj
-         Debug\25_reverseKGroup.obj
-         Debug\31_nextPermutation.obj
-         Debug\32_longestValidParentheses.obj
-         Debug\33_search.obj
-         Debug\34_searchRange.obj
-         Debug\39_combinationSum.obj
-         leetcode_vs.vcxproj -> E:\leetcode\leetcode\leetcode_vs\Debug\leetcode_vs.exe
-     1>已完成生成项目“E:\leetcode\leetcode\leetcode_vs\leetcode_vs\leetcode_vs.vcxproj”(Build 个目标)的操作。
+         G:\VS012\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 49_groupAnagrams.cpp
+         49_groupAnagrams.cpp
+     1>e:\leetcode\leetcode\leetcode_vs\leetcode_vs\49_groupanagrams.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\leetcode\leetcode\leetcode_vs\leetcode_vs\49_groupanagrams.cpp(20): error C2664: “void std::vector<_Ty>::push_back(std::basic_string<_Elem,_Traits,_Alloc> &&)”: 不能将参数 1 从“char”转换为“std::basic_string<_Elem,_Traits,_Alloc> &&”
+                 with
+                 [
+                     _Ty=std::string,
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 原因如下: 无法从“char”转换为“std::basic_string<_Elem,_Traits,_Alloc>”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>已完成生成项目“E:\leetcode\leetcode\leetcode_vs\leetcode_vs\leetcode_vs.vcxproj”(Build 个目标)的操作 - 失败。
 
-生成成功。
+生成失败。
 
-已用时间 00:00:01.96
+已用时间 00:00:01.39

@@ -42,5 +42,11 @@
     <ClCompile Include="39_combinationSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="48_rotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49_groupAnagrams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
