@@ -44,6 +44,7 @@ public:
 	}
 };
 
+#if 0
 int main()
 {
 	Solution s;
@@ -59,3 +60,5 @@ int main()
 
 	return 0;
 }
+
+#endif
