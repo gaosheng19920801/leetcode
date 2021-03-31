@@ -29,7 +29,7 @@ public:
 	}
 };
 
-#if 1
+#if 0
 int main()
 {
 	Solution s;

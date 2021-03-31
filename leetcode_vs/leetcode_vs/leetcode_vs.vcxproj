@@ -85,9 +85,11 @@
     <ClCompile Include="33_search.cpp" />
     <ClCompile Include="34_searchRange.cpp" />
     <ClCompile Include="39_combinationSum.cpp" />
+    <ClCompile Include="46_permute.cpp" />
     <ClCompile Include="48_rotate.cpp" />
     <ClCompile Include="49_groupAnagrams.cpp" />
     <ClCompile Include="53_maxSubArray.cpp" />
+    <ClCompile Include="55_canJump.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
